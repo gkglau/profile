@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-size: 16px;
+  background-color: #EAEFEF;
+  color: #44444E
+}
+@media screen and (min-width: 320px) {
+  .profile-image {
+  width: 100px;
+  border-radius: 50%;
+}
+h1, h2, h3 {
+  color: #37353E;
+  font-family: "Roboto", sans-serif;
+}
+h1{
+  font-size: 28px;
+}
+h2{
+  font-size: 24px;
+}
+h3{
+  font-size: 20px;
+}
+#introduction {
+  margin-bottom: 40px;
+}
+.container {
+  background-color: #f3f5f5;
+  margin: 4rem auto 1rem;
+  width: 80%;
+  padding: 2rem;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-align: center;
+}
+.card {
+  background-color: #f3f5f5;
+  margin: 1rem auto;
+  width: 80%;
+  padding: 2rem;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.btn {
+  background-color: rgb(136, 101, 184);
+  color: #EAEFEF;
+  padding: 15px 20px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #37353E;
+  margin: auto;
+  border-radius: 4px;
+}
+a:hover{
+  background-color: rgb(88, 58, 130);
+  color: #EAEFEF;
+}
+i.fa-brands {
+    font-size: 40px;
+}
+i.fa-brands:hover {
+  background-color: rgb(88, 58, 130);
+  color: #EAEFEF;
+  padding: 4px;
+  border-radius: 4px;
+}
+}
+
+@media screen and (min-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 700px
+  }
+}
