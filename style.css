@@ -21,14 +21,6 @@ a {
   font-weight: 900;
 }
 
-.info-bar {
-  background: #333;
-  color: white;
-  padding: 10px 15px;
-  font-size: 14px;
-  width: 400px;
-}
-
 .section-title {
   font-weight: 700;
   margin-bottom: 20px;
@@ -40,21 +32,18 @@ a {
 .content {
   flex: 1;
 }
-.img-preview {
-  width: 80%;
-  border-radius: 8px;
-}
 .card {
-  width: 420px;
+  width: 100%;
+  max-width: 420px;
   background: none;
+}
+.img-preview {
+  width: 100%;
+  border-radius: 8px;
 }
 .img-preview-card {
   width: 100%;
   border-radius: 8px;
-}
-.icon-link {
-  text-decoration: none;
-  color: white;
 }
 .tag {
   border: 1px solid #333;
@@ -72,18 +61,7 @@ a {
   color: white;
   padding: 20px;
 }
-
-@media (max-width: 1060px) {
-  .img-hero {
-    display: none;
-  }
-  .img-preview {
-    display: none;
-  }
-}
-
-@media (max-width: 760px) {
-  .img-preview {
-    display: none;
-  }
+.icon-link {
+  text-decoration: none;
+  color: white;
 }
