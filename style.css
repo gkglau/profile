@@ -56,6 +56,20 @@ a {
   border: 1px solid black;
   color: white;
 }
+.btn-cv {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-cv:hover {
+  opacity: 0.8;
+}
 .footer {
   background-color: #333;
   color: white;
@@ -69,5 +83,8 @@ a {
   .img-preview {
     width: 100%;
     border-radius: 8px;
+  }
+  .btn-cv {
+    width: 100%;
   }
 }
